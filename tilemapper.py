@@ -225,7 +225,7 @@ def loadPNG(filename):
 
 # crop image to smallest dimension to make it square
 def preprocessCanvas(canvas):
-    canvas = invertCanvas(canvas)
+    # canvas = invertCanvas(canvas)
     return canvas
 
 # TODO: check that the image is square, at least
